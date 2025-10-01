@@ -64,7 +64,7 @@ The development process is documented through a series of notebooks, each with a
 | :--- | :--- | :--- |
 | **1. Data Exploration** | [01_data_exploration.ipynb](notebooks/01_data_exploration.ipynb) | Initial analysis of the raw dataset and viability testing of the first agent. |
 | **2. Batch Processing** | [02_batch_processing.ipynb](notebooks/02_batch_processing.ipynb) | GPU-accelerated pipeline on Google Colab to process all 1,250 jobs with the `Market Analyst` agent. Implements robust checkpointing. |
-| **3. Analysis & Viz** | [03_skills_analysis.ipynb](notebooks/03_skills_analysis.ipynb) | Analysis of the extracted skills, including frequency counts and generation of the final data visualizations. |
+| **3. Analysis** | [03_skills_analysis.ipynb](notebooks/03_skills_analysis.ipynb) | Analysis of the extracted skills, including frequency counts and generation of the final data visualizations. |
 | **4. Gap Analyst Dev** | [04_gap_analyst_test.ipynb](notebooks/04_gap_analyst_test.ipynb) | Development and testing of the `Gap Analyst` agent and the semantic skill normalization pipeline using sentence embeddings. |
 | **5. Learning Planner Dev** | [05_learning_planner_test.ipynb](notebooks/05_learning_planner_test.ipynb) | Development and iterative prompt engineering for the `Learning Planner` agent, including handling LLM limitations like knowledge cutoff. |
 | **6. Report Synthesizer Dev**| [06_report_synthesizer_test.ipynb](notebooks/06_report_synthesizer_test.ipynb) | Development and testing of the final `Report Synthesizer` agent, focusing on generating a structured Markdown report. |
@@ -75,7 +75,7 @@ Clone the repository and install dependencies in a virtual environment. This pro
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/agentic-skill-mapper.git
+git clone https://github.com/Gomes-Gustavo/agentic-skill-mapper.git
 cd agentic-skill-mapper
 
 # Create and activate a virtual environment
