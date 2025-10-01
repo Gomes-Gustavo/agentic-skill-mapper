@@ -1,0 +1,23 @@
+# --- Core AI & LLM Framework ---
+langchain==0.3.27
+langchain-community==0.3.29
+langchain-ollama==0.3.7
+pydantic==2.11.7
+ollama==0.5.3
+
+# --- NLP & Embeddings ---
+# Main library for embeddings
+sentence-transformers==5.1.1
+# Core dependencies for sentence-transformers
+torch==2.8.0
+transformers==4.56.2
+
+# --- Data Handling & Analysis ---
+pandas==2.3.2
+numpy==2.2.6
+
+# --- Visualization & Progress Bars ---
+matplotlib==3.10.6
+seaborn==0.13.2
+tqdm==4.67.1
+
